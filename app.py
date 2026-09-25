@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # TinyFish Automation Endpoint
 TINYFISH_AGENT_URL = "https://agent.tinyfish.ai/v1/automation/run"
-TINYFISH_API_KEY = os.environ.get("TINYFISH_API_KEY", "your_free_tinyfish_key_here")
+TINYFISH_API_KEY = os.environ.get("TINYFISH_API_KEY")
 
 # Public mock online store optimized for e-commerce parsing
 TARGET_STORE = "https://scrapeme.live"
